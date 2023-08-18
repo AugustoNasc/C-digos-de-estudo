@@ -6,6 +6,9 @@ carga = 1.602e-19
 # kBoltz=1.380649e-23
 kBoltz = 8.62e-5
 
+#fórmulas relativas ao conteudo de espectroscopia rotacional/vibracional
+#e também de cristalografia
+
 function R(m1, m2, B)
     return sqrt(h/(8*(π^2)*B*Ctil*μ(m1,m2)))
     end
