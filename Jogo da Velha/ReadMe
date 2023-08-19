@@ -1,0 +1,6 @@
+1)leve seu terminal até o diretorio que contem todos esses arquivos
+escreva: 
+2)g++ -c velha.cpp
+3)ar crv velha.a velha.o
+4)g++ main.cpp velha.a -o JOGO_DA_VELHA
+5)JOGO_DA_VELHA
