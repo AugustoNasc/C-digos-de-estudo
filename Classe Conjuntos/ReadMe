@@ -1,0 +1,8 @@
+Para compilar o arquivo com biblioteca, abra esses três arquivos em uma mesma pasta.
+Abra o seu cmd (prompt de comando) e siga o passo a passo:
+
+1)Comande o diretorio do terminal até o endereço da pasta usando o comando cd
+2) escreva: g++ -c conjuntos.cpp
+3) ar crv conjuntos.a conjuntos.o
+4) g++ main.cpp -L. -lconjuntos
+5) main // nesse momento o programa sera executado
